@@ -1,0 +1,23 @@
+div{
+    background: rgb(52, 9, 91);
+    color: azure;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.info {
+    color: rgb(192, 98, 221);
+}
+.warning{
+    color: rgb(232, 96, 96);
+    font-weight: bold;
+}
+
+#warning{
+    color: rgb(226, 13, 180);
+}
+p:last-child{
+    color: rgb(180, 144, 214);
+}
