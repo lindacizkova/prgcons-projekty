@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    margin: 16px;
+    padding: 16px;
+}
+
+
+.kont{
+    background:lightpink ;
+    width: 400px;
+    height: 400px;
+    color: rgb(247, 238, 224);
+    display: grid;
+    place-items: center;
+
+}
+
+.parnt {
+    width: 200px;
+    height: 200px;
+    background: violet;
+    display: grid;
+
+}
+
+.child{
+    background: blueviolet;
+    width: 50%;
+    height: 50%;
+    display: grid;
+    place-items: center;
+    place-self: center;
+
+}
