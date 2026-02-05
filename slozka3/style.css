@@ -78,3 +78,32 @@ section{
 
 
 }
+
+
+.box{
+    background: rgb(127, 230, 127);
+    height: 50px;
+    width: 50px;
+    padding: 50px;
+    margin: 20px auto;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.demo{
+    background: rgb(255, 211, 91);
+    height: 50px;
+    width: 300px;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin: 20px auto;
+    border: 10px solid pink;
+    display: grid;
+    place-items: center;
+    box-sizing: content-box;
+}
