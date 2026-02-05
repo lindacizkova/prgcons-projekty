@@ -36,3 +36,45 @@ section{
     place-self: center;
 
 }
+
+.panel {
+
+    background: lightsalmon;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: salmon;
+    margin-bottom: 16px;
+}
+
+.mix{
+    background: lightskyblue;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(5, 57, 78);
+    border-left-style: dashed;
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: dotted;
+    margin-bottom: 16px;
+
+}
+
+.nevim{
+    background: rgb(220, 155, 250);
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border: 5px solid pink;
+    margin-bottom: 16px;
+
+
+}
