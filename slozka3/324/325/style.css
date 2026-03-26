@@ -4,7 +4,22 @@ body {
 
 
     font-family: systhem system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-image: url();
+    background-image: url("./4a4064b8-7de7-4757-b303-131029a10c8c-profile_image-300x300.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
 
+}
 
+.wrap{
+
+    padding: 16px;
+    margin: 16px;
+}
+.scrolltext{
+
+    background: rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    border-radius:12px ;
+    max-width: 320px;
 }
